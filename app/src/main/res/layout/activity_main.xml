@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="464dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:text="DIRECCION DE GESTION TERRITORIAL"
+        android:textColor="@android:color/black"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/cen"
+            android:layout_width="233dp"
+            android:layout_height="114dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/cen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fverde"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Ingreso al Sistema"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Usuario:"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:width="160dp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:background="@color/sysWhite"
+            
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@android:color/black"
+                android:width="260dp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                android:text="Contraseña:"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:width="160dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:background="@color/sysWhite"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@android:color/black"
+                android:width="260dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BtnBoton5"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"     
+            android:text="Aceptar"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:width="160dp" 
+            android:layout_marginBottom="15dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="86dp"
+        android:text=" .." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="86dp"
+        android:text=" .." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="86dp"
+        android:text=" .." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fverde"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="CEN © 2016-Todos los Derechos Reservados"
+        android:textColor="@android:color/white" />
+</LinearLayout>
+
+</ScrollView>
